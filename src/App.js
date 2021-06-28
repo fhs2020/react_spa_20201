@@ -1,11 +1,17 @@
 // Import React
 import React, { Component } from 'react';
-import { Router, navigate } from '@reach/router';
+//import { navigate } from 'react-router-dom';
+ 
+import {
+  BrowserRouter as Router,
+} from "react-router-dom";
+
 import firebase from './Firebase';
 
 import Home from './Home';
 import Welcome from './Welcome';
 import Navigation from './Navigation';
+import { navigate } from '@reach/router';
 import Login from './Login';
 import Register from './Register';
 import Meetings from './Meetings';
